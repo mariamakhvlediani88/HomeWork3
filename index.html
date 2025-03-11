@@ -1,39 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="./css.html/reset.css" />
-    <link rel="stylesheet" href="./css.html/styles.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 
     <title>Homework3</title>
   </head>
   <body>
     <header>
-      <a href="index.html"><img src="./images/Logo.svg" /></a>
+      <a href="index.html"><img src="./images/Logo.svg" alt="logo" /></a>
 
       <nav>
-        <ul>
-          <li>
-            <a href="index.html">home</a>
+        <ul class="nav-list">
+          <li class="list-item">
+            <a href="index.html">Home</a>
           </li>
-          <li>
+
+          <li class="list-item">
             <a href="#">Articles</a>
           </li>
-          <li>
+
+          <li class="list-item">
             <a href="#">Pricing</a>
           </li>
-          <li>
+
+          <li class="list-item">
+            <a href="#">About</a>
+          </li>
+
+          <li class="list-item">
             <a href="#">Contact</a>
           </li>
         </ul>
       </nav>
-      <div>
+
+      <div class="buttons-section">
         <button class="log-in-btn">Log In</button>
         <button class="free-trial-btn">Free Trial</button>
       </div>
     </header>
 
-    <main></main>
+    <main>
+      <div class="main-text">
+        <h1>A modern way to build websites.</h1>
+        <p class="main-paragraph">
+          Empower designers to build professional, custom websites in a
+          completely visual canvas with no code.
+        </p>
+        <button class="main-btn">Free Trial</button>
+      </div>
+    </main>
 
-    <section></section>
+    <section class="card-section">
+      <div class="card">
+        <img src="images/1.jpg" />
+        <h3 class="card-text">
+          Redesigning my site increased sales by over 400% in one week.
+        </h3>
+        <p class="card-date">Jul 1, 2020</p>
+      </div>
+      <div class="card">
+        <img src="images/2.jpg" />
+        <h3 class="card-text">
+          Design handoff: What engineers really want to see
+        </h3>
+        <p class="card-date">Jul 1, 2020</p>
+      </div>
+      <div class="card">
+        <img src="images/3.jpg" />
+        <h3 class="card-text">
+          A comprehensive list of human-computer interactions
+        </h3>
+        <p class="card-date">Jul 1, 2020</p>
+      </div>
+      <div class="card">
+        <img src="images/4.jpg" />
+        <h3 class="card-text">Why do people hate redesigns?</h3>
+        <p class="card-date">Jul 1, 2020</p>
+      </div>
+    </section>
   </body>
 </html>

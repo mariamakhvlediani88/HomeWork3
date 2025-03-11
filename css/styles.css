@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+header {
+  padding: 25px 45px;
+}
+
+nav {
+  display: inline;
+  margin-left: 44px;
+  margin-right: 199px;
+}
+
+.nav-list,
+.list-item {
+  display: inline;
+}
+
+.list-item {
+  margin-left: 56px;
+}
+
+.list-item a {
+  color: #14203e;
+}
+
+.buttons-section {
+  display: inline;
+}
+
+.log-in-btn {
+  border: none;
+  background-color: #f6f0e8;
+  padding: 13px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.free-trial-btn {
+  border: none;
+  background-color: #14203e;
+  color: #fff;
+  padding: 13px 30px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+main {
+  width: 100%;
+  height: 604px;
+  background-color: #fffcf8;
+  color: #14203e;
+  text-align: center;
+}
+
+.main-text {
+  width: 600px;
+  margin: 0px auto;
+  padding-top: 129px;
+}
+
+h1 {
+  font-size: 66px;
+  font-weight: 700px;
+}
+
+.main-paragraph {
+  font-size: 22px;
+  margin: 30px 40px;
+  font-weight: 400px;
+}
+
+.main-btn {
+  border: none;
+  background-color: #14203e;
+  color: #fff;
+  padding: 25px 40px;
+  border-radius: 10px;
+}
+
+.card-section {
+  width: 1254px;
+  margin: 78px auto;
+}
+
+.card {
+  width: 291px;
+  display: inline-block;
+  margin-left: 26px;
+}
+.card:first-child {
+  margin-left: 0px;
+}
+
+.card-text {
+  font-size: 22px;
+  color: #14203e;
+  font-weight: 700;
+}
+
+.card-date {
+  font-size: 14px;
+  color: #14203e;
+  font-weight: 400px;
+}
